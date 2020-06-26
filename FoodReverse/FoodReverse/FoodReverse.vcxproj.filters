@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Scene\Game\GameScene.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ModeSelect\ModeSelect.cpp">
+      <Filter>Scene\ModeSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Result\Result.cpp">
+      <Filter>Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SkinSelect\SkinScelect.cpp">
+      <Filter>Scene\SkinSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Title\Title.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3bb565b8-56d1-46ec-a1cd-2cde049ff8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{cc84c8cd-6cb5-4bc7-97ce-1eb4ad117135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{baf012d3-6df5-4f00-960a-bfceed592114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{846a3bd7-df24-48da-8f21-f9e2d335d5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SkinSelect">
+      <UniqueIdentifier>{b9511d63-5afd-4489-b9e8-ea6c8d5c89be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ModeSelect">
+      <UniqueIdentifier>{d3452f23-4ca5-436a-a0b9-8cc35944a36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene">
+      <UniqueIdentifier>{25e78f2a-39d9-40de-9909-8bfe90208a1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\SceneBase.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SceneName.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Game\GameScene.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ModeSelect\ModeSelect.h">
+      <Filter>Scene\ModeSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Result\Result.h">
+      <Filter>Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SkinSelect\SkinSelect.h">
+      <Filter>Scene\SkinSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Title\Title.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

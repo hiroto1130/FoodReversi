@@ -41,6 +41,7 @@ namespace Library
 		if ((_D3DXERR)result == D3DXERR_INVALIDDATA)
 		{
 			OutputDebugString(TEXT("\nテクスチャファイルが見つかりません\n"));
+			Texture = nullptr;
 		}
 	}
 

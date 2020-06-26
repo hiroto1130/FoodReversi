@@ -20,7 +20,7 @@ namespace Library
 	{
 	public:
 
-		TextureData(LPDIRECT3DTEXTURE9 m_pTexture, Position position, RectSize TextureSize, Uv uv) : m_pTexture(m_pTexture),position(position),texture_size(TextureSize),uv(uv) {}
+		TextureData(Position position, RectSize TextureSize, Uv uv) : position(position),texture_size(TextureSize),uv(uv) {}
 
 		LPDIRECT3DTEXTURE9 m_pTexture = nullptr;
 		Position position;
