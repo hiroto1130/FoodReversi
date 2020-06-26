@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{e9473182-a96e-4e00-ae58-a2775af4d533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{bf7d9fc2-44ff-4186-8354-7df3f7ada9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device\Input">
+      <UniqueIdentifier>{51feb69e-1c62-4721-81e0-f5eb79718305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{21963603-0d3f-471f-83a1-dce02bf698e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Winodw\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\Device.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic\Graphic.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\Input\Key.h">
+      <Filter>Device\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Position.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\RectSize.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Uv.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Matrix.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Font\Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Winodw\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\Device.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic\Graphic.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\Input\Key.cpp">
+      <Filter>Device\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Font\Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
