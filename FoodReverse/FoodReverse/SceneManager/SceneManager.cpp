@@ -44,21 +44,21 @@ void SceneManager::SceneDrow()
 	scene->Draw();
 }
 
-bool SceneManager::IsSceneChange()
+void SceneManager::SceneChangeCheck()
 {
-	// Exitで現在のSceneと同じ名前が返ってくれば false
-	if (scene->Exit() == currentScene)
+	if (scene->Exit() != currentScene)
 	{
-		return false;
+		SceneName nextScene = scene->Exit();
+
+		CreateScene(nextScene);
 	}
 
-	// 違うなら返ってきた名前のSceneにChange
-	return true;
 }
 
 void SceneManager::Initialize(SceneName name)
 {
 	CreateScene(name);
+	currentScene = name;
 }
 
 void SceneManager::Delete()

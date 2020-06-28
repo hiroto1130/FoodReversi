@@ -10,12 +10,7 @@ public:
 	SceneManager(SceneName name) { Initialize(name); }
 	~SceneManager() { Delete(); }
 
-	/**
-	 * Sceneを作成する関数
-	 * @param name 作成するSceneの名前
-	 * @detail SceneManagerを呼ぶ際にもInitialize関数で呼ばれる
-	 */
-	void CreateScene(SceneName name);
+
 
 	/**
 	 * 現在のSceneのUpdate関数をここで呼ぶ
@@ -29,9 +24,8 @@ public:
 	
 	/**
 	 * Sceneが変えるかどうかを確認する関数
-	 * @return Sceneが変わるなら true それ以外なら false
 	 */
-	bool IsSceneChange();
+	void SceneChangeCheck();
 
 private:
 
@@ -47,12 +41,16 @@ private:
 	 */
 	void Delete();
 
+	/**
+	 * Sceneを作成する関数
+	 * @param name 作成するSceneの名前
+	 * @detail SceneManagerを呼ぶ際にもInitialize関数で呼ばれる
+	 */
+	void CreateScene(SceneName name);
+
 	SceneBase* scene = nullptr;
 
-	SceneName currentScene = SceneName::TitleScene;
-
-
-
+	SceneName currentScene;
 
 };
 
