@@ -39,7 +39,7 @@ namespace Library
 		RectSize window_size{ 0,0 };
 		WindowParameter::GetRectSize(&window_size);
 
-		hWnd = CreateWindow(wndclass.lpszClassName, wndclass.lpszClassName, WS_OVERLAPPEDWINDOW, 0, 0, window_size.width, window_size.height, NULL, NULL, wndclass.hInstance, NULL);
+		hWnd = CreateWindow(wndclass.lpszClassName, wndclass.lpszClassName, WS_VISIBLE | WS_POPUP, 0, 0, window_size.width, window_size.height, NULL, NULL, wndclass.hInstance, NULL);
 
 		WindowParameter::SetWindowHandle(hWnd);
 
@@ -72,6 +72,12 @@ namespace Library
 		{
 		case WM_DESTROY:
 			PostQuitMessage(0);
+			break;
+		case WM_KEYDOWN:
+			if (GetKeyState(VK_ESCAPE) < 0)
+			{
+				SendMessage(hWnd, WM_CLOSE, 0, 0);
+			}
 			break;
 		default:
 			break;
