@@ -20,6 +20,9 @@
     <ClCompile Include="SceneManager\SceneManager.cpp">
       <Filter>SceneManager</Filter>
     </ClCompile>
+    <ClCompile Include="Game\GameManager\GameManager.cpp">
+      <Filter>Game\GameManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -83,6 +86,12 @@
     </ClInclude>
     <ClInclude Include="SceneManager\SceneManager.h">
       <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\ObjectBase.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameManager\GameManager.h">
+      <Filter>Game\GameManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
