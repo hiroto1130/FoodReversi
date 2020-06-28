@@ -1,9 +1,10 @@
-#include <windows.h>
+﻿#include <windows.h>
 #include <d3d9.h>
 
 #include "../DirectXLibrary/Winodw/Window.h"
 #include "../DirectXLibrary/Device/Device.h"
 #include "../DirectXLibrary/Device/Input/Key.h"
+#include "SceneManager/SceneManager.h"
 
 using namespace Library;
 using namespace Utility;
@@ -13,13 +14,15 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR szStr, int iCmdSh
 	MSG msg;
 	ZeroMemory(&msg, sizeof(msg));
 
-	Window* window = new Window("Test");
-	WindowParameter::SetRectSize(RectSize{ 640,480 });
+	Window* window = new Window("Food");
+	WindowParameter::SetRectSize(RectSize{ 1920,1080 });
 
 	window->Cenerate();
 
 	Device* device = new Device;
 	Key* key = new Key;
+
+	SceneManager* sceneManager = new SceneManager(SceneName::TitleScene);
 
 	while (msg.message != WM_QUIT)
 	{
@@ -33,9 +36,10 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR szStr, int iCmdSh
 			key->UpdateKeyStatus();
 			device->DrawStart();
 
+			sceneManager->SceneDrow();
+			sceneManager->SceneUpdate();
 
-
-
+			sceneManager->SceneChangeCheck();
 
 			device->DrawEnd();
 
