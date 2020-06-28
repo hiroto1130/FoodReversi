@@ -46,6 +46,18 @@
     <Filter Include="SceneManager">
       <UniqueIdentifier>{dbc1e1d6-302e-4c50-8d97-0db1034be5d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d70394aa-b6c3-4b2d-9558-7cdae9d287b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameManager">
+      <UniqueIdentifier>{da703b34-c299-4acb-813d-b709b44af3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{502e0a83-050e-41fd-b276-7454b54e95dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System">
+      <UniqueIdentifier>{d7ad2251-3d58-4321-802c-35b46f50fc44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scene\SceneBase.h">
