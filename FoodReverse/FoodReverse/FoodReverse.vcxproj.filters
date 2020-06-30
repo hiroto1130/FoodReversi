@@ -93,5 +93,8 @@
     <ClInclude Include="Game\GameManager\GameManager.h">
       <Filter>Game\GameManager</Filter>
     </ClInclude>
+    <ClInclude Include="Game\Object\Cell.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
