@@ -145,6 +145,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game\GameManager\GameManager.cpp" />
+    <ClCompile Include="Game\Object\Board.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SceneManager\SceneManager.cpp" />
     <ClCompile Include="Scene\Game\GameScene.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Game\GameManager\GameManager.h" />
     <ClInclude Include="Game\Object\Cell.h" />
     <ClInclude Include="Game\Object\ObjectBase.h" />
+    <ClInclude Include="Game\Object\Board.h" />
     <ClInclude Include="SceneManager\SceneManager.h" />
     <ClInclude Include="Scene\Game\GameScene.h" />
     <ClInclude Include="Scene\ModeSelect\ModeSelect.h" />
