@@ -90,9 +90,6 @@
     <ClInclude Include="SceneManager\SceneManager.h">
       <Filter>SceneManager</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Object\ObjectBase.h">
-      <Filter>Game\Object</Filter>
-    </ClInclude>
     <ClInclude Include="Game\GameManager\GameManager.h">
       <Filter>Game\GameManager</Filter>
     </ClInclude>
