@@ -163,6 +163,7 @@
     <ClInclude Include="Game\GameManager\GameManager.h" />
     <ClInclude Include="Game\Object\Cell.h" />
     <ClInclude Include="Game\Object\CellManager.h" />
+    <ClInclude Include="Game\System\GameSystem.h" />
     <ClInclude Include="SceneManager\SceneManager.h" />
     <ClInclude Include="Scene\Game\GameScene.h" />
     <ClInclude Include="Scene\ModeSelect\ModeSelect.h" />

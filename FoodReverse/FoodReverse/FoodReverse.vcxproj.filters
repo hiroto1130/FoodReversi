@@ -102,6 +102,9 @@
     <ClInclude Include="Utility\Direction.h">
       <Filter>Utility</Filter>
     </ClInclude>
+    <ClInclude Include="Game\System\GameSystem.h">
+      <Filter>Game\System</Filter>
+    </ClInclude>
     <ClInclude Include="Game\Object\CellManager.h">
       <Filter>Game\Object</Filter>
     </ClInclude>
