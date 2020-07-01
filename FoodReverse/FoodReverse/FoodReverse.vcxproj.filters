@@ -23,7 +23,7 @@
     <ClCompile Include="Game\GameManager\GameManager.cpp">
       <Filter>Game\GameManager</Filter>
     </ClCompile>
-    <ClCompile Include="Game\Object\Board.cpp">
+    <ClCompile Include="Game\Object\CellManager.cpp">
       <Filter>Game\Object</Filter>
     </ClCompile>
   </ItemGroup>
@@ -102,7 +102,7 @@
     <ClInclude Include="Game\Object\Cell.h">
       <Filter>Game\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Object\Board.h">
+    <ClInclude Include="Game\Object\CellManager.h">
       <Filter>Game\Object</Filter>
     </ClInclude>
   </ItemGroup>

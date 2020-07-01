@@ -1,10 +1,10 @@
-#include "Board.h"
+#include  "CellManager.h"
 
 namespace 
 {
 	const int MAX_CELL = 64;
 }
-void Board::Initialize()
+void CellManager::Initialize()
 {
 	for (int create_cell = 0; create_cell < MAX_CELL; ++create_cell)
 	{
@@ -13,7 +13,7 @@ void Board::Initialize()
 	}
 }
 
-void Board::Delete()
+void CellManager::Delete()
 {
 	for (int delete_cell = 0; delete_cell < MAX_CELL; ++delete_cell)
 	{
