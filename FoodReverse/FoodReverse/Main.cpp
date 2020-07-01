@@ -22,7 +22,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR szStr, int iCmdSh
 	Device* device = new Device;
 	Key* key = new Key;
 
-	SceneManager* sceneManager = new SceneManager(SceneName::TitleScene);
+	SceneManager* sceneManager = new SceneManager(SceneName::GameScene);
 
 	while (msg.message != WM_QUIT)
 	{
