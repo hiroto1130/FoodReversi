@@ -5,19 +5,31 @@ namespace
 	const int MAX_CELL = 64;
 	const int WHITE = 0;
 	const int BLACK = 1;
+	const int CELL_START_POS_WIDTH = 512;
+	const int CELL_START_POS_HEIGHT = 92;
+	const int CELL_SIZE = 112;
 }
 
 void CellManager::Draw()
 {
-
+	int count = 0;
+	Position pos(0,0);
 	for (auto cell_num : field)
 	{
+		++count;
+		pos.x = CELL_START_POS_WIDTH + (CELL_SIZE * (count % 8));
+		pos.y = CELL_START_POS_HEIGHT + (CELL_SIZE * (count / 8));
+
 		if (cell_num->GetState() == CellState::ExistBlackStone)
 		{
+			textureData[WHITE]->position = pos;
+
 			texture->Draw(*textureData[WHITE]);
 		}
 		else if (cell_num->GetState() == CellState::ExistWhiteStone)
 		{
+			textureData[BLACK]->position = pos;
+
 			texture->Draw(*textureData[BLACK]);
 		}
 	}
