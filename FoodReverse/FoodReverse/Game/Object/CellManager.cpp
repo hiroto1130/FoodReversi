@@ -38,11 +38,11 @@ void CellManager::Initialize()
 	texture = new Texture();
 
 	TextureData* white = new TextureData(Position(0, 0), RectSize(112, 112), Uv(0, 0, 1, 1));
-	texture->Load("white.png", &white->m_pTexture);
+	texture->Load("Texture/white.png", &white->m_pTexture);
 	textureData.push_back(white);
 
 	TextureData* black = new TextureData(Position(0,0),RectSize(112,112),Uv(0,0,1,1));
-	texture->Load("black.png", &black->m_pTexture);
+	texture->Load("Texture/black.png", &black->m_pTexture);
 	textureData.push_back(black);
 	
 }
