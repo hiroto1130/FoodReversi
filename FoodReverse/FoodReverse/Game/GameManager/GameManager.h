@@ -1,6 +1,8 @@
 ﻿#ifndef GMAE_MANAGER_H
 #define GMAE_MANAGER_H
 
+#include "../Object/CellManager.h"
+
 class GameManager
 {
 public:
@@ -31,6 +33,8 @@ private:
 	 * @detail デストラクタで呼び、delete処理をメインで行う
 	 */
 	void Delete();
+
+	CellManager* manager = nullptr;
 
 };
 
