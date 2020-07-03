@@ -33,6 +33,19 @@ void CellManager::Initialize()
 	{
 		field.push_back(nullptr);
 		field[create_cell] = new Cell();
+
+		if (create_cell == 26 || create_cell == 35)
+		{
+			field[create_cell]->SetState(CellState::ExistWhiteStone);
+		}
+		else if (create_cell == 27 || create_cell == 34)
+		{
+			field[create_cell]->SetState(CellState::ExistBlackStone);
+		}
+		else
+		{
+			field[create_cell]->SetState(CellState::Invisible);
+		}
 	}
 
 	texture = new Texture();
