@@ -4,6 +4,7 @@
 #include "../../../DirectXLibrary/Graphic/Graphic.h"
 
 #include "../SceneBase.h"
+#include "../../Game/GameManager/GameManager.h"
 
 class GameScene : public SceneBase
 {
@@ -23,6 +24,8 @@ private:
 	void Initialize();
 
 	void Delete();
+
+	GameManager* manager = nullptr;
 };
 
 
