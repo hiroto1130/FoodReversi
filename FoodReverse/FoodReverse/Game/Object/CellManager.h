@@ -3,6 +3,7 @@
 
 #include <vector>
 
+#include "../../../DirectXLibrary/Graphic/Graphic.h"
 #include "Cell.h"
 
 class CellManager
@@ -21,6 +22,8 @@ public:
 		field[cell_pos]->SetCanInvertDirection(direction);
 	}
 
+	void Draw();
+
 private:
 
 	/**
@@ -35,6 +38,9 @@ private:
 	void Delete();
 
 	std::vector<Cell*> field;
+
+	Library::Texture* texture;
+	std::vector<Library::TextureData*> textureData;
 
 };
 
