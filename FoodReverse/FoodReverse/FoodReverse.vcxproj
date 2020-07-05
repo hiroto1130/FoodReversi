@@ -144,6 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="Game\GameManager\GameManager.cpp" />
     <ClCompile Include="Game\Object\CellManager.cpp" />
     <ClCompile Include="Main.cpp" />

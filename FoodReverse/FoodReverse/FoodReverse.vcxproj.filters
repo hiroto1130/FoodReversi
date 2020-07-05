@@ -26,6 +26,9 @@
     <ClCompile Include="Game\Object\CellManager.cpp">
       <Filter>Game\Object</Filter>
     </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Game\System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">

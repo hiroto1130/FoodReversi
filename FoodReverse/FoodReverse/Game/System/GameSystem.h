@@ -1,13 +1,13 @@
 ﻿#ifndef GAME_SYSTEM_H
 #define GAME_SYSTEM_H
 
-#include "../Object/Board.h"
+#include "../Object/CellManager.h"
 
 class GameSystem
 {
 public:
 
-	void Invert(Board board);
+	void Invert();
 
 	void Search();
 
