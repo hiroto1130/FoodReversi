@@ -14,15 +14,15 @@ public:
 
 	void SetState(CellState chang_state) { state = chang_state; };
 
-	std::vector<Direction> GetCanInvertDirection() { return can_invert_direction; }
+	std::vector<int> GetCanInvertDirection() { return can_invert_direction; }
 
-	void SetCanInvertDirection(std::vector<Direction> direction) { can_invert_direction = direction; }
+	void SetCanInvertDirection(std::vector<int> direction) { can_invert_direction = direction; }
 
 private:
 
 	CellState state = CellState::Invisible;
 
-	std::vector<Direction> can_invert_direction;
+	std::vector<int> can_invert_direction;
 
 };
 

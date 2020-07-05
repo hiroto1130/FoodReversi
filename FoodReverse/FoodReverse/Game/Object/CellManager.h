@@ -17,7 +17,7 @@ public:
 		field[cell_pos]->SetState(state);
 	}
 
-	inline void SetSupport(std::vector<Direction> direction, int cell_pos)
+	inline void SetSupport(std::vector<int> direction, int cell_pos)
 	{
 		field[cell_pos]->SetCanInvertDirection(direction);
 	}
