@@ -22,6 +22,18 @@ public:
 		field[cell_pos]->SetCanInvertDirection(direction);
 	}
 
+	inline std::vector<int> GetSupprt(int cell_num)
+	{
+		return field[cell_num]->GetCanInvertDirection();
+	}
+
+	inline CellState GetCellState(int cell_num)
+	{
+		return field[cell_num]->GetState();
+	}
+
+	inline std::vector<Cell*> GetField() { return field; }
+
 	void Draw();
 
 private:
