@@ -12,7 +12,7 @@ public:
 	CellManager() { Initialize(); }
 	~CellManager() { Delete(); }
 
-	inline void ColorChange(CellState state, int cell_pos)
+	inline void SetState(CellState state, int cell_pos)
 	{
 		field[cell_pos]->SetState(state);
 	}
@@ -27,7 +27,7 @@ public:
 		return field[cell_num]->GetCanInvertDirection();
 	}
 
-	inline CellState GetCellState(int cell_num)
+	inline CellState GetState(int cell_num)
 	{
 		return field[cell_num]->GetState();
 	}
