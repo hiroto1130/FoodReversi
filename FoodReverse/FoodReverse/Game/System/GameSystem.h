@@ -7,7 +7,7 @@ class GameSystem
 {
 public:
 
-	void Invert();
+	void Invert(CellManager manager, int cell_num);
 
 	void Search();
 
