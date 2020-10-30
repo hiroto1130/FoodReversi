@@ -37,7 +37,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR szStr, int iCmdSh
 			device->DrawStart();
 
 			sceneManager->SceneDrow();
-			sceneManager->SceneUpdate();
+			sceneManager->SceneUpdate(*key);
 
 			sceneManager->SceneChangeCheck();
 

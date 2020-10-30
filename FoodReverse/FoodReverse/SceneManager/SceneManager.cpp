@@ -15,18 +15,25 @@ void SceneManager::CreateScene(SceneName name)
 	{
 	case SceneName::TitleScene:
 		scene = new TitleScene();
+		currentScene = SceneName::TitleScene;
+		// title画面でskin変更をするためここでSkinClassのインスタンスを作成する
+		Skin::create();
 		break;
-	case SceneName::ModeSelectScene:
+	case SceneName::ModeSelectScene: // 削除予定
 		scene = new ModeSelectScene();
+		currentScene = SceneName::ModeSelectScene;
 		break;
 	case SceneName::SkinSelectScene:
 		scene = new SkinSelectScene();
+		currentScene = SceneName::SkinSelectScene;
 		break;
 	case SceneName::GameScene:
 		scene = new GameScene();
+		currentScene = SceneName::GameScene;
 		break;
-	case SceneName::ResultScene:
+	case SceneName::ResultScene: // 削除予定(仕様変更で使う可能性有)
 		scene = new ResultScene();
+		currentScene = SceneName::ResultScene;
 		break;
 	default:
 		break;
@@ -34,9 +41,9 @@ void SceneManager::CreateScene(SceneName name)
 
 }
 
-void SceneManager::SceneUpdate()
+void SceneManager::SceneUpdate(Library::Key& key)
 {
-	scene->Update();
+	scene->Update(key);
 }
 
 void SceneManager::SceneDrow()
@@ -65,4 +72,6 @@ void SceneManager::Delete()
 {
 	delete scene;
 	scene = nullptr;
+	// 確定で消すDelete関数でSkinClassのインスタンスも削除する(仮置き)
+	Skin::destroy();
 }

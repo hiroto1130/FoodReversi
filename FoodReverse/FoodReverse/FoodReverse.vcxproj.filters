@@ -20,6 +20,27 @@
     <ClCompile Include="SceneManager\SceneManager.cpp">
       <Filter>SceneManager</Filter>
     </ClCompile>
+    <ClCompile Include="Game\GameManager\GameManager.cpp">
+      <Filter>Game\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\CellManager.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\System\GameSystem.cpp">
+      <Filter>Game\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\Ui.cpp">
+      <Filter>Game\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Timer\Timer.cpp">
+      <Filter>Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin\Skin.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Save\Save.cpp">
+      <Filter>Save</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scene">
@@ -46,6 +67,30 @@
     <Filter Include="SceneManager">
       <UniqueIdentifier>{dbc1e1d6-302e-4c50-8d97-0db1034be5d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d70394aa-b6c3-4b2d-9558-7cdae9d287b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameManager">
+      <UniqueIdentifier>{da703b34-c299-4acb-813d-b709b44af3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{502e0a83-050e-41fd-b276-7454b54e95dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System">
+      <UniqueIdentifier>{d7ad2251-3d58-4321-802c-35b46f50fc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui">
+      <UniqueIdentifier>{e16c0502-6e26-429e-a123-7234549cf64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Timer">
+      <UniqueIdentifier>{53e437fd-200a-40ea-93cf-813d1579b5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skin">
+      <UniqueIdentifier>{f742c4ed-952a-47c8-9466-23c238c431c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Save">
+      <UniqueIdentifier>{afa94c4d-ac95-48e2-8999-94e86867d906}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scene\SceneBase.h">
@@ -71,6 +116,45 @@
     </ClInclude>
     <ClInclude Include="SceneManager\SceneManager.h">
       <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameManager\GameManager.h">
+      <Filter>Game\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CellState.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Cell.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Direction.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\CellManager.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\StoneCount.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\Ui.h">
+      <Filter>Game\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Player.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Timer\Timer.h">
+      <Filter>Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin\Skin.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Save\Save.h">
+      <Filter>Save</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\GameState.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\System\GameSystem.h">
+      <Filter>Scene\Title</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

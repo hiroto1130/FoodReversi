@@ -2,3 +2,11 @@ C:\保存用\デスクトップ\FoodReverse\FoodReverse\x64\Debug\DirectXLibrary
 C:\保存用\デスクトップ\FoodReverse\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb
 D:\デスクトップ\FoodRiversi\FoodReverse\x64\Debug\DirectXLibrary.pdb
 D:\デスクトップ\FoodRiversi\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb
+D:\デスクトップ\新しいフォルダー\FoodReverse\x64\Debug\DirectXLibrary.pdb
+D:\デスクトップ\新しいフォルダー\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb
+D:\新しいフォルダー\FoodReverse\x64\Debug\DirectXLibrary.pdb
+D:\新しいフォルダー\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb
+C:\保存用\デスクトップ\新しいフォルダー\FoodReverse\x64\Debug\DirectXLibrary.pdb
+C:\保存用\デスクトップ\新しいフォルダー\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb
+C:\保存用\デスクトップ\FoodReverse\x64\Debug\DirectXLibrary.pdb
+C:\保存用\デスクトップ\FoodReverse\DirectXLibrary\x64\Debug\DirectXLibrary.pdb

@@ -5,6 +5,7 @@
 
 #include "../Utility/SceneName.h"
 #include "../../DirectXLibrary/Graphic/Graphic.h"
+#include "../../DirectXLibrary/Device/Input/Key.h"
 
 class SceneBase
 {
@@ -15,7 +16,7 @@ public:
 	/**
 	 * 画面の更新を行う関数
 	 */
-	virtual void Update() = 0;
+	virtual void Update(Library::Key& key) = 0;
 
 	/**
 	 * 描画を行う関数
@@ -41,8 +42,12 @@ protected:
 	 */
 	virtual void Delete() = 0;
 
+	SceneName myScene ;
+
 	Library::Texture* texture;
 	std::vector<Library::TextureData*> textureData;
+
+
 };
 
 #endif

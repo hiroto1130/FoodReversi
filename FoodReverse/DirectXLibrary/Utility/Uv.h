@@ -6,7 +6,7 @@ namespace Utility
 	class Uv
 	{
 	public:
-		Uv(float Tu, float Tv, float TuSize, float TvSize) : tu(Tu), tv(tv), tu_size(TuSize), tv_size(TvSize) {}
+		Uv(float Tu, float Tv, float TuSize, float TvSize) : tu(Tu), tv(Tv), tu_size(TuSize), tv_size(TvSize) {}
 
 		float tu;
 		float tv;

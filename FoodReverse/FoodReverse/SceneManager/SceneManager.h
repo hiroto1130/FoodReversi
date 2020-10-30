@@ -2,6 +2,7 @@
 #define SCENE_MANAGER_H
 
 #include "../Scene/SceneBase.h"
+#include "../Skin/Skin.h"
 
 class SceneManager
 {
@@ -10,12 +11,10 @@ public:
 	SceneManager(SceneName name) { Initialize(name); }
 	~SceneManager() { Delete(); }
 
-
-
 	/**
 	 * 現在のSceneのUpdate関数をここで呼ぶ
 	 */
-	void SceneUpdate();
+	void SceneUpdate(Library::Key& key);
 	
 	/**
 	 * 現在のSceneのDraw関数をここで呼ぶ

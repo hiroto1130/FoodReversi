@@ -1,4 +1,5 @@
 ﻿#include "Graphic.h"
+
 namespace Library
 {
 	void Texture::Draw(const TextureData& texture_data)
